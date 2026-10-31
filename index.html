@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shubham Lashkari | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+     
+<div id="preloader">
+
+    <div class="loader-content">
+
+        <h1 class="logo">SL</h1>
+
+        <p class="loading-text">
+            Initializing Portfolio...
+        </p>
+
+    </div>
+
+</div>
+    <!-- PARTICLE BACKGROUND -->
+
+    <canvas id="particles"></canvas>
+
+    <!-- CUSTOM CURSOR -->
+
+    <div class="cursor"></div>
+
+    <!-- SCROLL PROGRESS -->
+
+    <div id="progress-bar"></div>
+
+    <!-- NAVBAR -->
+
+    <nav id="navbar">
+
+        <div class="nav-brand">
+            <div class="nav-avatar">SL</div>
+            <span class="nav-name">Shubham Lashkari</span>
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#journey">Education</a></li>
+            <li><a href="#lokbharati">Lokbharti</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <div class="nav-clock">
+            <div id="time"></div>
+            <div id="date"></div>
+        </div>
+
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!-- HERO SECTION -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>
+                Shubham Lashkari
+            </h1>
+
+            <h2 id="typing-text"></h2>
+
+            <p class="hero-line">
+
+                Building Modern Digital Experiences
+                With Creativity, Code & Innovation.
+
+            </p>
+
+            <div class="status-box">
+
+                <span class="green-dot"></span>
+
+                Available For
+
+                <p>
+                    Internships • Collaborations • Learning Opportunities
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <div class="photo-ring">
+
+                <!-- Photo: use the file stored in the project root -->
+
+                <img id="profile-photo"
+                    src="shubham.png"
+                    alt="Professional headshot of Shubham Lashkari in a dark suit and navy tie"
+                    loading="lazy"
+                    onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%23050816%22/><text x=%2250%25%22 y=%2255%25%22 font-size=%2276%22 fill=%22%2338bdf8%22 font-family=%22Poppins,Arial,sans-serif%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>SL</text></svg>';">
+
+            </div>
+
+            <div class="floating-icons">
+
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-python"></i>
+                <i class="fas fa-database"></i>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about">
+
+        <div class="section-title">
+            About Me
+        </div>
+
+        <div class="about-card">
+
+            <p>
+
+                I am Shubham Lashkari, a B.Voc IT student
+                with a strong passion for technology,
+                web development, and software engineering.
+
+            </p>
+
+            <br>
+
+            <p>
+
+                I enjoy creating modern, responsive,
+                and user-friendly digital experiences
+                while continuously improving my
+                programming skills.
+
+            </p>
+
+            <br>
+
+            <p>
+
+                Currently, I am exploring Python Development,
+                Web Technologies, and the Frappe Framework
+                with the goal of becoming a Full Stack Developer
+                and contributing to innovative real-world solutions.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- PROFESSIONAL SUMMARY -->
+
+    <section id="summary">
+
+        <div class="section-title">
+            Professional Summary
+        </div>
+
+        <div class="about-card summary-card">
+
+            <p>
+
+                A motivated Computer Applications student with hands-on
+                experience in Data Analytics, Python Programming,
+                Dashboard Development, Database Management, and
+                Frappe Framework Development.
+
+            </p>
+
+            <br>
+
+            <p>
+
+                Skilled in analyzing data, developing database-driven
+                applications, and working with modern software
+                development tools. Passionate about learning new
+                technologies and applying technical knowledge to
+                solve real-world problems.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- WHY CHOOSE ME -->
+
+    <section>
+
+        <div class="section-title">
+
+            Why Choose Me
+
+        </div>
+
+        <div class="why-container">
+
+            <div class="why-card">
+
+                <i class="fas fa-rocket"></i>
+
+                <h3>Fast Learner</h3>
+
+                <p>
+                    Quickly adapts to new technologies
+                    and learning environments.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fas fa-lightbulb"></i>
+
+                <h3>Problem Solver</h3>
+
+                <p>
+                    Enjoy solving real-world challenges
+                    through technology.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fas fa-bolt"></i>
+
+                <h3>Creative Thinker</h3>
+
+                <p>
+                    Focused on building modern and
+                    engaging user experiences.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fas fa-bullseye"></i>
+
+                <h3>Goal Oriented</h3>
+
+                <p>
+                    Committed to continuous improvement
+                    and long-term growth.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- =========================
+         SKILLS SECTION
+    ========================== -->
+
+    <section id="skills">
+
+        <div class="section-title">
+            My Tech Stack
+        </div>
+
+        <div class="skills-container">
+
+            <div class="tech-item">
+                <div class="tech-icon"><i class="fab fa-html5"></i></div>
+                <h3>HTML</h3>
+                <span class="tech-percent">89%</span>
+                <div class="skill-details">
+                    <p>✔ Semantic HTML5</p>
+                    <p>✔ SEO Friendly</p>
+                    <p>✔ Accessibility</p>
+                    <p>✔ Responsive Layout</p>
+                </div>
+            </div>
+
+            <div class="tech-item">
+                <div class="tech-icon"><i class="fab fa-css3-alt"></i></div>
+                <h3>CSS</h3>
+                <span class="tech-percent">78%</span>
+                <div class="skill-details">
+                    <p>✔ Flexbox</p>
+                    <p>✔ CSS Grid</p>
+                    <p>✔ Animations</p>
+                    <p>✔ Glassmorphism</p>
+                </div>
+            </div>
+
+            <div class="tech-item">
+                <div class="tech-icon"><i class="fab fa-js"></i></div>
+                <h3>JavaScript</h3>
+                <span class="tech-percent">82%</span>
+                <div class="skill-details">
+                    <p>✔ DOM Manipulation</p>
+                    <p>✔ Events</p>
+                    <p>✔ Dynamic UI</p>
+                    <p>✔ Interactive Effects</p>
+                </div>
+            </div>
+
+            <div class="tech-item">
+                <div class="tech-icon"><i class="fab fa-python"></i></div>
+                <h3>Python</h3>
+                <span class="tech-percent">85%</span>
+                <div class="skill-details">
+                    <p>✔ OOP</p>
+                    <p>✔ File Handling</p>
+                    <p>✔ Logic Building</p>
+                    <p>✔ Project Development</p>
+                </div>
+            </div>
+
+            <div class="tech-item">
+                <div class="tech-icon"><i class="fas fa-code"></i></div>
+                <h3>C++</h3>
+                <span class="tech-percent">75%</span>
+                <div class="skill-details">
+                    <p>✔ Arrays</p>
+                    <p>✔ Functions</p>
+                    <p>✔ OOP Basics</p>
+                    <p>✔ Problem Solving</p>
+                </div>
+            </div>
+
+            <div class="tech-item">
+                <div class="tech-icon"><i class="fas fa-database"></i></div>
+                <h3>MySQL</h3>
+                <span class="tech-percent">80%</span>
+                <div class="skill-details">
+                    <p>✔ CRUD Operations</p>
+                    <p>✔ Queries</p>
+                    <p>✔ Database Design</p>
+                    <p>✔ Relations</p>
+                </div>
+            </div>
+
+            <div class="tech-item">
+                <div class="tech-icon"><i class="fas fa-cube"></i></div>
+                <h3>Frappe</h3>
+                <span class="tech-percent">70%</span>
+                <div class="skill-details">
+                    <p>✔ ERPNext Basics</p>
+                    <p>✔ DocTypes</p>
+                    <p>✔ Forms</p>
+                    <p>✔ Workflow Automation</p>
+                </div>
+            </div>
+
+            <div class="tech-item">
+                <div class="tech-icon"><i class="fab fa-github"></i></div>
+                <h3>GitHub</h3>
+                <span class="tech-percent">85%</span>
+                <div class="skill-details">
+                    <p>✔ Version Control</p>
+                    <p>✔ Repository Management</p>
+                    <p>✔ Collaboration</p>
+                    <p>✔ Open Source</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         CURRENTLY LEARNING
+    ========================== -->
+
+    <section id="learning">
+
+        <div class="section-title">
+            Currently Learning
+        </div>
+
+        <div class="learning-container">
+
+            <div class="learning-card">
+                ✔ Frappe Framework
+            </div>
+
+            <div class="learning-card">
+                ✔ Advanced Python
+            </div>
+
+            <div class="learning-card">
+                ✔ Backend Development
+            </div>
+
+            <div class="learning-card">
+                ✔ API Integration
+            </div>
+
+            <div class="learning-card">
+                ✔ Database Management
+            </div>
+
+            <div class="learning-card">
+                ✔ Modern Web Technologies
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         PROJECTS SECTION
+    ========================== -->
+
+    <section id="projects">
+
+        <div class="section-title">
+            My Projects
+        </div>
+
+        <div class="projects-container">
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card">
+
+                <h3>
+                    Student Management System
+                </h3>
+
+                <h4>
+                    Python + MySQL
+                </h4>
+
+                <ul>
+                    <li>CRUD Operations</li>
+                    <li>Student Record Management</li>
+                    <li>Search Functionality</li>
+                    <li>Database Integration</li>
+                </ul>
+
+            </div>
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card">
+
+                <h3>
+                    Premium Portfolio Website
+                </h3>
+
+                <h4>
+                    HTML + CSS + JavaScript
+                </h4>
+
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>Particle Background</li>
+                    <li>Typing Animation</li>
+                    <li>Premium UI/UX</li>
+                </ul>
+
+            </div>
+
+            <!-- PROJECT 3 -->
+
+            <a href="https://lashkarishubham58-design.github.io/Dashboard/"
+                class="project-card project-link"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                <h3>
+                    Dashboard
+                </h3>
+
+                <h4>
+                    Python + Data Visualization
+                </h4>
+
+                <ul>
+                    <li>Interactive Charts & Graphs</li>
+                    <li>Data Cleaning & Processing</li>
+                    <li>Business Insights</li>
+                    <li>Real-time Analytics</li>
+                </ul>
+
+                <span class="project-link-hint">
+                    View Live <i class="fas fa-external-link-alt"></i>
+                </span>
+
+            </a>
+
+            <!-- PROJECT 4 -->
+
+            <div class="project-card">
+
+                <h3>
+                    Frappe Framework Project
+                </h3>
+
+                <h4>
+                    Frappe + Python + MySQL
+                </h4>
+
+                <ul>
+                    <li>DocTypes</li>
+                    <li>Workflow Management</li>
+                    <li>Form Customization</li>
+                    <li>Data Handling</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         INTERNSHIP & EXPERIENCE
+    ========================== -->
+
+    <section id="experience">
+
+        <div class="section-title">
+            Internship & Experience
+        </div>
+
+        <div class="experience-container">
+
+            <div class="experience-card">
+
+                <div class="experience-header">
+
+                    <div class="experience-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+
+                    <div>
+                        <h3>Data Analytics Intern</h3>
+                        <h4>Gujarat Vidyapith, Ahmedabad</h4>
+                        <span class="experience-duration">
+                            <i class="far fa-calendar-alt"></i>
+                            December 2025
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="experience-body">
+
+                    <h5>Key Responsibilities</h5>
+
+                    <ul>
+                        <li>Learned and applied Data Analysis techniques using Python.</li>
+                        <li>Worked with datasets for data cleaning, processing, and visualization.</li>
+                        <li>Created interactive dashboards to present business and analytical insights.</li>
+                        <li>Utilized Microsoft Excel for data management, reporting, and analysis.</li>
+                        <li>Prepared professional documents and reports using Microsoft Word.</li>
+                        <li>Gained practical exposure to data-driven decision-making processes.</li>
+                    </ul>
+
+                    <h5>Skills Developed</h5>
+
+                    <div class="skill-tags">
+                        <span>Python Programming</span>
+                        <span>Data Analysis</span>
+                        <span>Data Visualization</span>
+                        <span>Dashboard Development</span>
+                        <span>Microsoft Excel</span>
+                        <span>Report Preparation</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="experience-card">
+
+                <div class="experience-header">
+
+                    <div class="experience-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+
+                    <div>
+                        <h3>Frappe Framework Intern</h3>
+                        <h4>Laser Academy of Computer, Rajkot, Gujarat</h4>
+                        <span class="experience-duration">
+                            <i class="far fa-calendar-alt"></i>
+                            February 2026
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="experience-body">
+
+                    <h5>Key Responsibilities</h5>
+
+                    <ul>
+                        <li>Learned and worked with the Frappe Framework for web application development.</li>
+                        <li>Developed and managed database-driven applications.</li>
+                        <li>Implemented Python scripts for backend functionality and automation.</li>
+                        <li>Worked with database design, data management, and CRUD operations.</li>
+                        <li>Customized forms, workflows, and modules within the Frappe Framework.</li>
+                        <li>Gained understanding of client-server architecture and ERP-based systems.</li>
+                    </ul>
+
+                    <h5>Skills Developed</h5>
+
+                    <div class="skill-tags">
+                        <span>Frappe Framework</span>
+                        <span>Python Programming</span>
+                        <span>Database Management</span>
+                        <span>Web Application Development</span>
+                        <span>ERP Concepts</span>
+                        <span>Backend Development</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="experience-card">
+
+                <div class="experience-header">
+
+                    <div class="experience-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+
+                    <div>
+                        <h3>KM Connect – WhatsApp Marketing Platform</h3>
+                        <h4>KM Soft</h4>
+                        <span class="experience-duration">
+                            <i class="far fa-calendar-alt"></i>
+                            October 2026 – Present
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="experience-body">
+
+                    <h5>Key Responsibilities</h5>
+
+                    <ul>
+                        <li>Researched WhatsApp marketing and business communication solutions.</li>
+                        <li>Explored WhatsApp chatbot workflows and automated customer interactions.</li>
+                        <li>Studied lead generation, customer engagement, and follow-up automation.</li>
+                        <li>Researched competitor platforms and their marketing features.</li>
+                        <li>Analyzed WhatsApp marketing use cases across different industries.</li>
+                        <li>Explored automation strategies to improve business communication.</li>
+                    </ul>
+
+                    <h5>Skills Developed</h5>
+
+                    <div class="skill-tags">
+                        <span>WhatsApp Marketing</span>
+                        <span>Chatbot Automation</span>
+                        <span>Digital Marketing</span>
+                        <span>Lead Generation</span>
+                        <span>Customer Engagement</span>
+                        <span>Competitor Research</span>
+                        <span>Workflow Automation</span>
+                        <span>Business Communication</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         MY JOURNEY
+    ========================== -->
+
+    <section id="journey">
+
+        <div class="section-title">
+            My Journey
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <h3>2024 - 2025</h3>
+
+                <p>
+                    Successfully completed Higher
+                    Secondary Education (12th Grade)
+                    and built a strong academic foundation.
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h3>2025</h3>
+
+                <p>
+                    Started pursuing Information
+                    Technology and developed a
+                    deep interest in programming.
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h3>2025</h3>
+
+                <p>
+                    Explored Web Development using
+                    HTML, CSS and JavaScript and
+                    started creating interactive websites.
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h3>2026</h3>
+
+                <p>
+                    Developing advanced portfolio
+                    projects and learning modern frameworks.
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h3>Future</h3>
+
+                <p>
+                    Aspiring to become a Full Stack
+                    Developer and Software Engineer
+                    creating impactful digital products.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         CERTIFICATES
+    ========================== -->
+
+    <section id="certificates">
+
+        <div class="section-title">
+            Certificates & Achievements
+        </div>
+
+        <article class="certificate-box">
+
+            <div class="certificate-heading">
+                <div>
+                    <p class="certificate-eyebrow">Internship Completion Certificate</p>
+                    <h3>KM Soft</h3>
+                </div>
+                <span class="certificate-period">45 days</span>
+            </div>
+
+            <p class="certificate-description">
+                Successfully completed an internship in Web Development at KM Soft. The
+                experience included practical exposure to web development and participation
+                in development activities.
+            </p>
+
+            <div class="certificate-details">
+                <span><strong>Dates</strong> 10 Aug 2026 – 26 Sep 2026</span>
+                <span><strong>Issued</strong> 26 Sep 2026</span>
+                <span><strong>Location</strong> Surat, Gujarat</span>
+            </div>
+
+            <button class="certificate-preview-button" id="preview-certificate" type="button">
+                <i class="fas fa-eye" aria-hidden="true"></i>
+                Preview Certificate
+            </button>
+
+        </article>
+
+        <dialog class="certificate-dialog" id="certificate-dialog" aria-label="KM Soft internship certificate preview">
+            <img class="certificate-image" id="certificate-image" src="KM Soft Internship Certificate.png" alt="KM Soft internship completion certificate for Shubham Lashkari">
+        </dialog>
+
+    </section>
+    <!-- =========================
+         WORKSHOP
+    ========================== -->
+
+    <section id="workshop">
+
+        <div class="section-title">
+            Workshop
+        </div>
+
+        <div class="workshop-card">
+            <div class="workshop-icon">
+                <i class="fas fa-file-word"></i>
+            </div>
+
+            <div class="workshop-content">
+                <h3>Cow Dung Picker Model Proposal - Lokbharti</h3>
+                <p>
+                    Prototype proposal and concept document for the Lokbharti workshop project.
+                </p>
+
+                <a class="workshop-link" href="Cow_Dung_Picker_Model_Proposal_Lokbharti.docx" target="_blank" rel="noopener noreferrer" download>
+                    <i class="fas fa-download"></i>
+                    Open / Download Proposal
+                </a>
+            </div>
+        </div>
+
+        <div class="workshop-card workshop-card-secondary">
+            <div class="workshop-icon">
+                <i class="fas fa-file-lines"></i>
+            </div>
+
+            <div class="workshop-content">
+                <h3>Group_18_Cow_Dung_Picker_Workshop_Report</h3>
+                <p>
+                    Workshop report covering the project findings, design approach, and implementation details.
+                </p>
+
+                <a class="workshop-link" href="Group_18_Cow_Dung_Picker_Workshop_Report.docx" target="_blank" rel="noopener noreferrer" download>
+                    <i class="fas fa-download"></i>
+                    Open / Download Report
+                </a>
+            </div>
+        </div>
+
+        <div class="workshop-video-block">
+            <h3>Workshop Video</h3>
+            <a class="workshop-link"
+                href="https://drive.google.com/file/d/1VePQZmUNYekfOjgD_Y0J7XZhC8iGQygr/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i class="fas fa-video"></i>
+                Open Workshop Video
+            </a>
+        </div>
+
+    </section>
+
+    <!-- =========================
+         GITHUB STYLE STATS
+    ========================== -->
+
+    <section id="stats">
+
+        <div class="section-title">
+            Coding Statistics
+        </div>
+
+        <div class="stats-container">
+
+            <div class="stat-card">
+                <h2 class="counter" data-target="6">0</h2>
+                <p>Projects Built</p>
+            </div>
+
+            <div class="stat-card">
+                <h2 class="counter" data-target="3">0</h2>
+                <p>Certificates Earned</p>
+            </div>
+
+            <div class="stat-card">
+                <h2 class="counter" data-target="200">0</h2>
+                <p>Coding Hours</p>
+            </div>
+
+            <div class="stat-card">
+                <h2 class="counter" data-target="8">0</h2>
+                <p>Technologies Learned</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         LOKBHARATI LIFE
+    ========================== -->
+
+    <section id="lokbharati">
+
+        <div class="section-title">
+            My Lokbharati Life
+        </div>
+
+        <div class="about-card">
+
+            <p>
+
+                I am currently pursuing my studies at
+                Lokbharati University for Rural Innovation.
+
+            </p>
+
+            <br>
+
+            <p>
+
+                Lokbharati has provided me with an
+                environment that encourages practical
+                learning, innovation, teamwork and
+                personal growth.
+
+            </p>
+
+            <br>
+
+            <p>
+
+                Through my academic journey at
+                Lokbharati, I continue to develop
+                technical skills, leadership qualities
+                and a commitment to contributing
+                positively to society through
+                technology and innovation.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         LOKBHARATI VIDEO
+    ========================== -->
+
+    <section id="lokbharati-video">
+
+        <div class="section-title">
+            Life At Lokbharati
+        </div>
+
+        <div class="video-container">
+
+            <iframe
+                src="https://www.youtube.com/embed/nIEythhVSnk"
+                title="Lokbharati University For Rural Innovation"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+        <p class="video-caption">
+
+            A glimpse of Lokbharati University for
+            Rural Innovation — the institution that
+            continues to inspire my learning journey,
+            creativity and personal growth.
+
+        </p>
+
+    </section>
+
+    <!-- =========================
+         CONTACT SECTION
+    ========================== -->
+
+    <section id="contact">
+
+        <div class="section-title">
+            Contact Me
+        </div>
+
+        <div class="contact-container">
+
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Lakshyashubham58@gmail.com"
+            class="contact-btn"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i class="fas fa-envelope"></i>
+            <span class="contact-label">Lakshyashubham58@gmail.com</span>
+        </a>
+
+            <a href="https://wa.me/919879011079" class="contact-btn" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i>
+                <span class="contact-label">+91 9879011079</span>
+            </a>
+
+            <a href="https://github.com/lashkarishubham58-design" class="contact-btn" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+                <span class="contact-label">github.com/lashkarishubham58-design</span>
+            </a>
+
+            <a href="https://linkedin.com/in/shubham-lashkari-b744983a6" class="contact-btn" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin-in"></i>
+                <span class="contact-label">linkedin.com/in/shubham-lashkari-b744983a6</span>
+            </a>
+
+            <a href="https://www.instagram.com/bapu._.007_?igsh=OXIyaDlpeTc5enc5" class="contact-btn" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+                <span class="contact-label">@ybapu._.007_</span>
+            </a>
+
+            <a href="https://www.facebook.com/share/1EZrD5ypMW/" class="contact-btn" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>
+                <span class="contact-label">facebook.com/shubham.lashkari</span>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <h3>
+            Built With Passion, Creativity & Code.
+        </h3>
+
+        <p>
+            © 2026 Shubham Lashkari
+        </p>
+
+        <span>
+            Turning Ideas Into Reality Through Code.
+        </span>
+
+    </footer>
+
+    <!-- BACK TO TOP -->
+
+    <button id="topBtn">
+        ↑
+    </button>
+
+    <!-- SCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
